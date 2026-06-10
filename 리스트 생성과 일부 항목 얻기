@@ -1,0 +1,6 @@
+a = 3
+b = 90
+small_list = [100,200]
+x = [1,2,a,a*10,b,small_list,'김연아']
+
+print(len(x)) #리스트의 항목 수
