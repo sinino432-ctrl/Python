@@ -1,0 +1,6 @@
+date = '12/31/2023'
+z = date.split('/')
+print(z)
+print(z[1])
+new_date = '-'.join((z[2],z[0],z[1]))
+print(new_date)
