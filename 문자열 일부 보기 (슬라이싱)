@@ -1,0 +1,7 @@
+x = '오늘 날씨는'
+print(len(x))
+print(x)
+print(x[:3])
+print(x[3:6])
+print(x[-3])
+print(x[-3:])
