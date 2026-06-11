@@ -1,0 +1,4 @@
+flies = ['cat001','cat002','dog003','dog004']
+match = 'cat'
+new_list = [s for s in flies if match in s]
+print(new_list)
