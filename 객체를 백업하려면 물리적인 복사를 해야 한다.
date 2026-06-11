@@ -1,0 +1,2 @@
+df_backup = df
+df_backiup = df.copy()
