@@ -1,0 +1,4 @@
+student = {'grade': 3, 'age': 21, 'name': 'kim'}
+print(student['grade'])
+student['address'] = 'Seoul'
+print(student)
