@@ -1,0 +1,2 @@
+print('age' in student) 
+print('sex' in student) 
