@@ -1,0 +1,2 @@
+df.columns = ['도시','인구','날씨']
+print(df)
