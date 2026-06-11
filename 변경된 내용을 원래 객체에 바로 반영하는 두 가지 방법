@@ -1,0 +1,5 @@
+df = df_backup.copy()              # 원본 데이터프레임을 복사
+df.set_index('도시', inplace=True) # '도시' 컬럼을 인덱스로 설정
+# df = df.set_index('도시')        # 위와 동일한 동작, inplace 대신 새로운 객체 반환
+print(df.index)                    # 인덱스 확인
+df                                 # 데이터프레임 출력
