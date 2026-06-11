@@ -1,0 +1,8 @@
+tuple_a = (1, 2, 3)
+tuple_b = 90, 'good'
+
+z = tuple_a * 2 + tuple_b
+print(z)
+print(z[-2])
+print(3 in z)
+print(4 in z)
