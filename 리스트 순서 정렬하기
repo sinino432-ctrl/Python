@@ -1,0 +1,9 @@
+x = [2,1,3,5,4]
+y = sorted(x)
+z = sorted(x, reverse = True)
+print(y)
+print(z)
+
+x = ['이선희','김연아','박세리']
+y = sorted(x)
+print(y)
