@@ -1,0 +1,8 @@
+import pandas as pd
+
+x = {'city': ['서울', '부산', '대구', '대전', '광주'],   # 리스트로 작성
+    'population': [990, 350, 250, 154, 150],          # 쉼표 누락 수정
+    'temp': [13, 16, 14, 13, 15]}
+
+df = pd.DataFrame(x)   # DataDrame → DataFrame 오타 수정
+print(df)
