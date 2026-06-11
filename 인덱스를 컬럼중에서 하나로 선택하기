@@ -1,0 +1,2 @@
+df2 = df.set_index('도시')
+df2
