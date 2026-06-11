@@ -1,0 +1,8 @@
+x = range(10)
+print(x)
+list_x = list(x)
+print(list_x)
+
+y = range(2,20,3)
+print(y)
+list_x = list(y)
