@@ -1,2 +1,5 @@
-df2 = df.drop(['서울','울산'])
-df2
+# Use axis=1 or columns= to drop columns
+df2 = df.drop(['서울', '울산'], axis=1)
+
+# Or the more readable modern syntax:
+df2 = df.drop(columns=['서울', '울산'])
