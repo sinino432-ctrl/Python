@@ -1,0 +1,2 @@
+df3 = pd.concat([df,df2]),ignor_index=True)
+df3
