@@ -1,0 +1,9 @@
+import pandas as pd
+
+x2 = {'city' : ['인천','울산'],
+      'population':[290,120],
+      'temp' : [12.7,15.5]}
+
+df2 = pd.DataFrame(x2)
+df2.columns = ['도시','인구','날씨']
+print(df2)
