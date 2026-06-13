@@ -1,0 +1,1 @@
+df2 = dr.drop(columns=['big'])
